@@ -1,0 +1,8 @@
+:root {
+  --color-primary: #1b4332;      /* Verde */
+  --color-secondary: #f77f00;    /* Naranja */
+  --color-background: #e9edc9;   /* Arena */
+  --color-dark: #081c15;         /* Verde oscuro */
+  --color-text: #1d1d1d;         /* Texto principal */
+  --color-text-dim: #555555;     /* Texto secundario */
+}
