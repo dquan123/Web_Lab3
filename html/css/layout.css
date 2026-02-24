@@ -25,3 +25,58 @@ footer {
   background-color: var(--color-dark);
   color: var(--color-text-light);
 }
+
+.theme-start {
+  background-color: var(--bg-start);
+}
+
+.theme-start header {
+  background-color: var(--color-primary);
+}
+
+.theme-start .btn-choice {
+  background-color: var(--color-accent);
+}
+
+/* --------------------------- */
+
+.theme-decision {
+  background-color: var(--bg-decision);
+  color: var(--color-text-light);
+}
+
+.theme-decision header {
+  background-color: #0f2f25;
+}
+
+.theme-decision .btn-choice {
+  background-color: #e85d04;
+}
+
+.theme-decision .btn-choice:hover {
+  background-color: #ffba08;
+}
+
+/* --------------------------- */
+
+.theme-ending {
+  background: linear-gradient(135deg, #081c15, #1b4332);
+  color: var(--color-text-light);
+}
+
+.theme-ending header {
+  background-color: #000000;
+}
+
+.theme-ending h1 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.theme-ending .btn-choice {
+  background-color: #6a040f;
+}
+
+.theme-ending .btn-choice:hover {
+  background-color: #9d0208;
+}
