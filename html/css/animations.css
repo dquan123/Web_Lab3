@@ -1,0 +1,27 @@
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes pulseGlow {
+  0% { box-shadow: 0 0 0px var(--color-accent); }
+  50% { box-shadow: 0 0 25px var(--color-accent); }
+  100% { box-shadow: 0 0 0px var(--color-accent); }
+}
+
+main {
+  animation: fadeIn 2s ease-in;
+}
+
+h1 {
+  animation: slideUp 1.5s ease-out;
+}
+
+.btn-choice:hover {
+  animation: pulseGlow 1s infinite;
+}
