@@ -1,0 +1,29 @@
+:root {
+
+  /* Colores principales */
+  --color-primary: #1b4332;
+  --color-accent: #f77f00;
+  --color-dark: #081c15;
+
+  /* Colores de fondo */
+  --bg-start: #e9edc9;
+  --bg-decision: #1b4332;
+  --bg-ending: #081c15;
+
+  /* Colores de texto */
+  --color-text: #1d1d1d;
+  --color-text-light: #ffffff;
+  --color-text-dim: #555555;
+
+  /* Tipografía */
+  --font-primary: 'Montserrat', sans-serif;
+  --font-secondary: 'Georgia', serif;
+
+  /* Escala de espaciado */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+
+  /* Bordes */
+  --radius-md: 8px;
+}
