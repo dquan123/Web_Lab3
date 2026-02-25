@@ -34,42 +34,6 @@ Each state has its own visual identity defined through CSS.
 ---
 
 ## Project Structure
-# Lost After the Crash – CSS Ricing Edition
-
-## Description
-
-This project is an interactive survival story developed for the Web Systems and Technologies course.
-
-The original HTML narrative has been enhanced using modern CSS techniques, focusing on UI/UX principles, responsive design, visual consistency, and CSS animations.
-
-No JavaScript was used in this project.
-
----
-
-## Concept
-
-The player survives a plane crash and must make decisions that lead to different outcomes.  
-The visual experience is divided into three thematic states:
-
-- Start (hope and clarity)
-- Decision (tension and uncertainty)
-- Ending (dramatic resolution)
-
-Each state has its own visual identity defined through CSS.
-
----
-
-## Technologies Used
-
-- HTML5  
-- CSS3 (Variables, Grid, Animations, Transitions)  
-- Google Fonts  
-- NGINX  
-- Git  
-
----
-
-## Project Structure
 Web_Lab3/
 │
 ├── index.html
