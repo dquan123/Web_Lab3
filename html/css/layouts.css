@@ -110,11 +110,7 @@ img {
   background-color: #9d0208;
 }
 
-/*Media Query
-
-/* ===========================
-   RESPONSIVE DESIGN
-   =========================== */
+/*Media Query*/
 
 @media (max-width: 768px) {
 
@@ -147,6 +143,6 @@ img {
   }
 
   .image-scene {
-    animation: none; /* Opcional para móvil */
+    animation: none;
   }
 }
