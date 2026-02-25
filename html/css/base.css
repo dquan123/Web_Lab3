@@ -35,8 +35,28 @@ img {
   color: var(--color-text-dim);
 }
 
+.subtitle-d {
+  font-size: 1.4rem;
+  color: var(--color-text-dim-s);
+}
+
 main {
   background-color: white;
   border-radius: 12px;
   padding: 2rem;
+}
+
+.text-story {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 70ch;
+  margin: 0 auto;
+}
+
+.text-story-w {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 70ch;
+  margin: 0 auto;
+  color: white
 }

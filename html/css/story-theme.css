@@ -13,7 +13,8 @@
   /* Colores de texto */
   --color-text: #1d1d1d;
   --color-text-light: #ffffff;
-  --color-text-dim: #555555;
+  --color-text-dim-s: #555555;
+  --color-text-dim: #a39999;
 
   /* Tipografía */
   --font-primary: 'Montserrat', sans-serif;

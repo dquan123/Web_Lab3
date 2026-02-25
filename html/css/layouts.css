@@ -26,16 +26,31 @@ footer {
   color: var(--color-text-light);
 }
 
+img {
+  margin: auto;
+  display: block;
+}
+
 .theme-start {
   background-color: var(--bg-start);
 }
 
 .theme-start header {
-  background-color: var(--color-primary);
+  background: linear-gradient(90deg, #2d6a4f, #40916c);
+}
+
+.theme-start main {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
 .theme-start .btn-choice {
   background-color: var(--color-accent);
+}
+
+.theme-start .btn-choice:hover {
+  background-color: #ff9f1c;
 }
 
 /* --------------------------- */
@@ -47,6 +62,13 @@ footer {
 
 .theme-decision header {
   background-color: #0f2f25;
+  border-bottom: 4px solid #e85d04;
+}
+
+.theme-decision main {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
 }
 
 .theme-decision .btn-choice {
@@ -60,16 +82,23 @@ footer {
 /* --------------------------- */
 
 .theme-ending {
-  background: linear-gradient(135deg, #081c15, #1b4332);
+  background: radial-gradient(circle at center, #1b4332, #000000);
   color: var(--color-text-light);
 }
 
 .theme-ending header {
   background-color: #000000;
+  border-bottom: 4px solid #9d0208;
+}
+
+.theme-ending main {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  box-shadow: 0 0 40px rgba(157, 2, 8, 0.6);
 }
 
 .theme-ending h1 {
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   text-transform: uppercase;
 }
 
@@ -79,4 +108,45 @@ footer {
 
 .theme-ending .btn-choice:hover {
   background-color: #9d0208;
+}
+
+/*Media Query
+
+/* ===========================
+   RESPONSIVE DESIGN
+   =========================== */
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 1rem;
+  }
+
+  header {
+    padding: 1rem;
+  }
+
+  main {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .title-main {
+    font-size: 1.8rem;
+  }
+
+  .text-story,
+  .text-story-w {
+    font-size: 1rem;
+  }
+
+  .btn-choice {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .image-scene {
+    animation: none; /* Opcional para móvil */
+  }
 }
