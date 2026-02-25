@@ -14,6 +14,18 @@
   100% { box-shadow: 0 0 0px var(--color-accent); }
 }
 
+@keyframes slowFloatX {
+  0% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+
 main {
   animation: fadeIn 2s ease-in;
 }
@@ -25,3 +37,9 @@ h1 {
 .btn-choice:hover {
   animation: pulseGlow 1s infinite;
 }
+
+.image-scene {
+  animation: slowFloatX 6s ease-in-out infinite;
+}
+
+

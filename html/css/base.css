@@ -9,6 +9,7 @@ body {
   background-color: var(--bg-start);
   color: var(--color-text);
   line-height: 1.6;
+  padding: 2rem;
 }
 
 h1, h2, h3 {
@@ -27,4 +28,15 @@ p {
 img {
   max-width: 100%;
   border-radius: var(--radius-md);
+}
+
+.subtitle {
+  font-size: 1.4rem;
+  color: var(--color-text-dim);
+}
+
+main {
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
 }
